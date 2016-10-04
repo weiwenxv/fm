@@ -103,3 +103,43 @@
     color: #333;
 
 }
+#fm-yy{
+	position: absolute;
+    right: 232px;
+    top: 90px;
+    z-index: 1;
+    border: 1px solid black;
+}
+#fm-yin{
+	width: 510px;
+    height: 245px;
+    overflow: hidden;
+    background: #fff;
+}
+#fm-yin_fm{
+	width: 245px;
+    height: 245px;
+    /*border: 1px solid black;*/
+}
+#fm-yin_fm > img{
+	width: 245px;
+    height: 245px;
+}
+#fm-yin_yy{
+	float: right;
+    width: 263px;
+    height: 245px;
+    margin-top: -245px;
+    border: 1px solid black;
+}
+#fm-yin_yy > div{
+    margin-top: 32px;
+    margin-left: 15px;
+}
+.span{
+	margin-top: 15px;
+}
+#fm-yin_yy > div > audio{
+    width: 228px;
+    margin-top: 30px;
+}
