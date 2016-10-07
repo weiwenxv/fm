@@ -24,22 +24,430 @@
     		<li id="fm-bg_li1"><a href="">我的红心兆赫</a></li>
     		<li id="fm-bg_li1"><a href="">豆瓣精选兆赫</a></li>
     	</ul>
+    	<div>
+    		<span>最近收听</span><hr class="hr">
+    		<span id="qita">试试这些</span><hr class="hr1">
+    	</div>
+    	<div>
+    		<ul>
+    			<li id="fm-bg_li11">华语 MHz</li>
+    			<li id="fm-bg_li11">新歌 MHz</li>
+    			<li id="fm-bg_li11">韩语 MHz</li>
+    			<li id="fm-bg_li11">欧美 MHz</li>
+    			<li id="fm-bg_li11">七零 MHz</li>
+    		</ul>
+    	</div>
+    	<div>
+    		<span>品牌兆赫</span><hr class="hr">
+    		<li id="fm-bg_li111">SK-II 最初的梦</li>
+    	</div>
     </div>
     <div id="fm-yy">
     	<div id="fm-yin">
     		<div id="fm-yin_fm">
-    			<img src="tupian/2.jpg">
+    			<img src="tupian/22.jpg">
     		</div>
     		<div id="fm-yin_yy">
-    		    <div>
+    		    <div id="fm-yin_yy-div">
     		        <span>本   兮</span><br>
     		        <span class="span"><轻 轻>2016</span>
-    		        <audio src="yinyue/本兮-轻轻" controls="controls"></audio>
-    		    </div>    
-    			
+    		        <audio src="yinyue/本兮-轻轻.mp3" id="audio"></audio>
+    		    </div>
+    		    <span>轻轻</span> 
+    		    <div id="jdt">
+	        	    <div id="input"></div>
+	            </div>  
+	             <div id="div2">	</div> 
+    			<div id="fm-tp">
+    				<img src="tupian/5.png" id="fm-tp1">
+    				<!-- <img src="tupian/8.png" id="fm-tp2"> -->
+    			    <img src="tupian/6.png" id="fm-tp3">
+    			    <img src="tupian/7.png" id="fm-tp4">
+    			</div>
     		</div>
     	</div>
+    	<div id="audio-fs">
+    	    <div id="audio_fs">
+    	    	<a href="" id="fs-a"><img src="tupian/2.png"> 发送歌曲到手机</a>
+    	    </div>
+    		<div id="audio_fs1">
+    		    <a href="" id="fs-a1"><img src="tupian/3.png"> 听相似歌曲</a>
+    	    </div>
+    	    <div id="audio_fs2">
+    	    	<span id="audio-span">分享这首歌</span>
+    	    	<div>
+    	    		<a href=""><img src="tupian/dou.png"></a>
+    	    		<a href=""><img src="tupian/wei.png"></a>
+    	    		<a href=""><img src="tupian/xin.png"></a>
+    	    		<a href=""><img src="tupian/qq1.png"></a>
+    	    		<a href=""><img src="tupian/wei1.png"></a>
+    	    		<a href=""><img src="tupian/ren.png"></a>
+    	    	</div>
+    	    </div>
+    	</div>
     </div>
+    <div id="fm_xiazai">
+    	<div id="fm_xiazai-div">
+    		<a href=""><img src="tupian/33.png" > 4.0 来啦！来下载吧</a> 
+    	</div>
+    </div>
+    <div style="margin-top:305px">
+    	<center><a href=""><img src="tupian/55.png"></a></center> 
+    </div>
+    <!-- 第二部分 -->
+    <div class="fm-ctrline">
+   	 <div id='fm-sidebar-ctrl'>
+   	 	<a href=""><img src="tupian/9.png" id="click1"></a> 
+   	 </div>
+    </div>
+   <div id="fm-sidebar" style="display:none;">
+   	 <div class="fm-side-inner" style="height:1501px">
+   	    <div class="fm-sidectrl">
+   	       <div id='fm-side-ctrl'>
+   	 	      <a href=""><img src="tupian/click1.png" id="cli"></a> 
+   	       </div> 
+        </div>
+   	 	<div class="fm-side-cont">
+   	 		<div class="fm-side-none"></div>
+   	 		<div class="fm-side-hd">
+   	 			<li style="font-size:35px;color:#999;float:left;">全部兆赫</li>
+   	 			<input type="text" name="n1" placeholder="搜索兆赫" class="fm-side-search">
+   	 		</div>
+   	 		<div id="fm-side-main">
+   	 			<div class="fm-show-off">
+   	 				<div id="show-img">
+   	 					<a href=""><img src="tupian/show1.jpg" id="showImg"></a>
+   	 				</div>
+   	 				<div class="intro">
+   	 					<ul class="show-pagenav">
+   	 						<li id="nav1"><a href="">1</a></li>
+   	 						<li id="nav2"><a href="">2</a></li>
+   	 						<li id="nav3"><a href="">3</a></li>
+   	 						<li id="nav4"><a href="">4</a></li>
+   	 						<li id="nav5"><a href="">5</a></li>
+   	 						<li id="nav6"><a href="">6</a></li>
+   	 					</ul>
+   	 					<div id="ss-intros">
+   	 						<div class="ss-intro" style="display:none;">
+   	 							<h3><a href="">运动MHz</a></h3>
+   	 							<div class="contant">
+   	 								<p>热门歌曲：Home Alone Tonight (Featuring Karen Fairchild) / Oh My story / The Big Bang Theory Theme</p>
+   	 								<a href="">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+                            <div class="ss-intro" style="display:none;">
+   	 							<h3><a href="">休息MHz</a></h3>
+   	 							<p class="size">休息的时候听什么</p>
+   	 							<div class="contant">
+   	 								<p>热门歌曲：You Are My Sunshine / Scream & Shout (Feat. Britney Spears) / 30 Minutes</p>
+   	 								<a href="">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 						<div class="ss-intro">
+   	 							<h3><a href="">Easy MHz</a></h3>
+   	 							<div class="contant">
+   	 								<p>热门歌曲：Moment Musical D 870 No. 3 / Summer Rainbow / 偲芳歌 (Piano Solo)</p>
+   	 								<span>984首歌曲</span><a href="">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</div>
+   	 				</div>
+   	 			</div>
+   	 			<div class="fm-side-list">
+   	 				<li><a href="">摇滚</a></li>
+   	 				<li>|</li>
+   	 				<li><a href="">古典</a></li>
+   	 				<li>|</li>
+   	 				<li><a href="">爵士</a></li>
+   	 				<li>|</li>
+   	 				<li><a href="">民谣/乡村</a></li>
+   	 				<li>|</li>
+   	 				<li><a href="">流行</a></li>
+   	 				<li>|</li>
+   	 				<li><a href="">电子</a></li>
+   	 				<li>|</li>
+   	 				<li><a href="">原声配乐</a></li>
+   	 				<li>|</li>
+   	 				<li><a href="">轻音乐</a></li>
+   	 				<li>|</li>
+   	 				<li><a href="">说唱</a></li>
+   	 				<li>|</li>
+   	 				<li><a href="">雷鬼</a></li>
+   	 				<li>|</li>
+   	 				<li style="margin-top:10px;"><a href="">拉丁</a></li>
+   	 				<li style="margin-top:10px;">|</li>
+   	 				<li style="margin-top:10px;"><a href="">世界音乐</a></li>
+   	 				<li style="margin-top:10px;">|</li>
+   	 				<li style="margin-top:10px;"><a href="">布鲁斯</a></li>
+   	 				<li style="margin-top:10px;">|</li>
+   	 				<li style="margin-top:10px;"><a href="">放克/灵歌/R&B</a></li>
+   	 			</div>
+   	 			<div class="fm-sideList-wrapper">
+   	 				<h3 class="title">热门兆赫</h3>
+   	 				<div class="clearFix">
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/1.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">华语MHZ</a></span>
+   	 							<div class="meta">
+   	 								<span class="song-num">1189首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/2.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">欧美MHZ</a></span>
+   	 							<div class="meta">
+   	 								<span class="song-num">3599首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/3.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">八零MHZ</a></span>
+   	 							<div class="meta">
+   	 								<span class="song-num">883首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/4.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">工作学习MHZ</a></span>
+   	 							<div class="meta">
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/5.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">粤语MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">2704首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/6.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">轻音乐MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">2736首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/7.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">咖啡MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">1710首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/8.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">你的歌词我的故事MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">588首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/9.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">看书浇花晒太阳MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">1228首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/10.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">爵士MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">4163首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 				</div>
+   	 				<h3 class="title">上升最快</h3>
+   	 				<div class="clearFix">
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/4.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">工作学习MHZ</a></span>
+   	 							<div class="meta">
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/11.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">小清新MHZ</a></span>
+   	 							<div class="meta">
+   	 								<span class="song-num">180首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/12.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">新歌MHZ</a></span>
+   	 							<div class="meta">
+   	 								<span class="song-num">1000+首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/7.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">咖啡MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">1710首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/13.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">古典MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">2646首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/10.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">爵士MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">4163首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/14.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">民谣MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">3781首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/6.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">轻音乐MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">2736首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/15.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">电影原声MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">4377首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/16.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">九零MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">874首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 				</div>
+   	 				<h3 class="title">品牌兆赫</h3>
+   	 				<div class="last">
+   	 					<li class="ch_item">
+   	 						<div class="cover-wrap">
+   	 							<img src="tupian/17.jpg" class="cover">
+   	 						</div>
+   	 						<div class="cont">
+   	 							<span class="shortList-title"><a href="">SK-II 最初的梦MHZ</a></span>
+   	 							<div class="meta">
+   	 							    <span class="song-num">50首歌曲</span>
+   	 								<a href="" class="side-show-detail">兆赫详情</a>
+   	 							</div>
+   	 						</div>
+   	 					</li>
+   	 				</div>
+   	 			</div>
+   	 		</div>
+   	 	</div>
+   	 </div>
+   	 <div></div>
+   </div>
 <script type="text/javascript" src="js/fm.js"></script>
 </body>
 </html>
