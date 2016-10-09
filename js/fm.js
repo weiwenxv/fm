@@ -4,8 +4,23 @@
     var input = document.getElementById('input');
     var audio = document.getElementById('audio');
     var div2 = document.getElementById('div2');
+    var div3 = document.getElementById('div3');
+    var src = document.getElementById('src');
     /*var tp2 = document.getElementById('fm-tp2');*/
     audio.autoplay = true;
+    div3.onclick=function(){
+		audio.play();
+		div3.style.display="none";
+		src.style.display="block";
+
+
+	}
+	src.onclick=function(){
+		audio.pause();
+		src.style.display="none";
+		div3.style.display="block";
+	}
+	
     tp1.onclick = function(){
     	if(tp1.src.match("tupian/5.png")){
            tp1.src="tupian/8.png";
@@ -34,6 +49,7 @@
     jdt.onclick = function(){
     	audio.currentTime = parseInt(event.offsetX)/160*(audio.duration);
     }
+    //第二部分
      /*var linsten = document.getElementById('linsten');*/
      var homepage = document.getElementById('homepage');
      var song = document.getElementById('song-a');
@@ -48,6 +64,11 @@
      var nav5 = document.getElementById('nav5');
      var nav6 = document.getElementById('nav6');
      var fmShow = document.getElementById('fm-show-off');
+     var ss = document.getElementById("ss-intro0");
+     var ss1 = document.getElementById('ss-intro1');
+     var ss2 = document.getElementById('ss-intro2');
+    
+
      /*linsten.onmouseover = function () {
      	homepage.src = 'tupian/white.png';
      	song.style.color = 'white';
@@ -101,12 +122,30 @@
      	showImg.style.width = '290px';
      	showImg.style.height = '276px';
      	clearInterval(zidong);
+     	if(ss1.style.display = 'none'){
+           ss.style.display = 'none';
+           ss2.style.display = 'none';
+           ss1.style.display = 'block';
+     	}else{
+           ss.style.display = 'block';
+           ss2.style.display = 'block';
+           ss1.style.display = 'none';
+     	}
      }
      nav3.onmouseover = function () {
      	showImg.src = 'tupian/show3.jpg';
      	showImg.style.width = '290px';
      	showImg.style.height = '276px';
      	clearInterval(zidong);
+     	if(ss2.style.display = 'none'){
+           ss.style.display = 'none';
+           ss1.style.display = 'none';
+           ss2.style.display = 'block';
+     	}else{
+     	   ss.style.display = 'block';
+           ss1.style.display = 'block';
+           ss2.style.display = 'none';
+     	}
      }
      nav4.onmouseover = function () {
      	showImg.src = 'tupian/show4.jpg';
@@ -124,7 +163,7 @@
      	showImg.src = 'tupian/show6.jpg';
      	clearInterval(zidong);
      }
-     nav1.onmouseout = function () {
+     /*nav1.onmouseout = function () {
      	 zidong = window.setInterval(qieHuan, 2000);
      }
      nav2.onmouseout = function () {
@@ -141,5 +180,5 @@
      }
      nav6.onmouseout = function () {
      	 zidong = window.setInterval(qieHuan, 2000);
-     }
+     }*/
 }(window))

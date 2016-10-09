@@ -8,17 +8,18 @@ a{
 	color: #333;
 }
 #fm-section {
-    position: relative;
+    position: fixed;
+    top: 0px;
+    left: 219px;
     width: 900px;
     min-height: 144px;
     margin: 0 auto;
-    z-index: 50;
 }
 #div-dl{
 	width: 900px;
     height: 146px;
     margin: 0 auto;
-    z-index: 50;
+    /*z-index: 50;*/
     position: relative;
 }
 #denglu{
@@ -27,7 +28,7 @@ a{
     background-color: #E5E6E6;
     float: right;
     position: relative;
-    top: -146px;
+    top: -203px;
 }
 #denglu > a{
 	text-decoration: none;
@@ -37,14 +38,21 @@ a{
     position: relative;
     top: 5px;
 }
+#div4{
+	overflow: scroll;
+    width: 243px;
+    height: 264px;
+    z-index: 5000;
+}
 #denglu-a{
      border-right: 1px dotted;/*虚线*/   
 }
 #logo{
 	background: #fff;
     display: block;
-    z-index: 40;
+    /*z-index: 40;*/
     width: 335px;
+    height: 170px;
     padding-bottom: 38px;
     overflow: hidden;
     zoom: 1;
@@ -68,8 +76,8 @@ a{
     background: no-repeat 0 0;
 }
 #fm-bg{
-    position: absolute;
-    z-index: -2;
+    position: fixed;
+    /*z-index: -2;*/
     left: 0;
     top: 169px;
     width: 100%;
@@ -87,7 +95,7 @@ a{
     zoom: 1;
     list-style-type: none;/*去点*/
     background-color: #9dd6c5;
-    margin-left: 230px;
+    margin-left: -40px;
     margin-top: 20px;
 }
 #fm-bg_li1{
@@ -100,7 +108,7 @@ a{
     cursor: pointer;
     zoom: 1;
     list-style-type: none;/*去点*/
-    margin-left: 230px;
+    margin-left: -40px;
     margin-top: 20px;
     background-color:rgba(198,211,205,0.5);
 }
@@ -139,10 +147,10 @@ a{
 
 }
 #fm-yy{
-	position: absolute;
+	position: fixed;
     right: 232px;
     top: 90px;
-    z-index: 1;
+    /*z-index: 1;*/
    /* border: 1px solid black;*/
 }
 #fm-yin{
@@ -173,6 +181,22 @@ a{
     margin-left: 20px;
     margin-top: 8px;
 }
+.src{
+	width: 34px;
+	height: 33px;
+	float: right;
+    margin-top: 3px;
+    margin-right: 5px;
+    display: block;
+    cursor: pointer;
+    z-index: 5;
+}
+.div3{
+	width: 100px;
+    height: 30px;
+    margin-left: 68px;
+    display: none;
+}
 #fm-yin_yy-div{
     margin-top: 32px;
     margin-left: 15px;
@@ -180,7 +204,7 @@ a{
 #fm-tp{
 	float: right;
     margin-right: 20px;
-    margin-top: 55px;
+    margin-top: 40px;
 }
 .span{
 	margin-top: 15px;
@@ -195,9 +219,12 @@ a{
     margin-top: -8px;
     color: #888;
 }
-#fm-bg > div{
-    margin-left: 270px;
-    margin-top: 30px;
+#fm-bg_div{
+    position: absolute;
+    top: 165px;
+    left: 265px;
+    /* margin-left: 270px; */
+    /* margin-top: 30px; */
     font-size: 13px;
     color: #888;
 }
@@ -292,7 +319,10 @@ a{
     height: 38px;
     background-color: #1fc178;
     border-radius: 3px;
-    margin-left: 950px;
+    position: fixed;
+    left: 961px;
+    top: 143px;
+    /* margin-left: 950px; */
     margin-top: 320px;
 }
 #fm_xiazai-div{
@@ -314,25 +344,25 @@ a{
 #fm-sidebar{
     width: 674px;
     height: 1501px;
-    z-index: 999;
+   /* z-index: 999;*/
     position: absolute;
     top: 0;
     left: 0;
     box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.1);
-    border: 1px solid black;
+    /*border: 1px solid black;*/
   }
   .fm-side-inner{
   	/*overflow: hidden;*/
     width: 674px;
     background: #fff;
-    z-index: 998;
+    /*z-index: 998;*/
     /*border: 1px solid black;*/
   }
   .fm-side-cont{
   	width: 674px;
     height: 1501px;
-    z-index: 997;
-    border: 1px solid black;
+    /*z-index: 997;*/
+   /* border: 1px solid black;*/
   }
   .fm-side-none{
   	width: 674px;
@@ -363,7 +393,7 @@ a{
     height: 278px;
     overflow: hidden;
     margin-bottom: 44px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
   }
   .fm-side-list{
   	width: 550px;
@@ -454,12 +484,12 @@ a{
   	height: 70px;
   }
   .fm-ctrline{
-  	position: absolute;
+  	position: fixed;
     left: 0;
     top: 0;
     height: 666px;
     width: 26px;
-    z-index: 50;
+    /*z-index: 50;*/
     box-shadow: 10px 0px 10px 0px rgba(0,0,0,0.1);
   }
   #fm-sidebar-ctrl{
@@ -495,7 +525,7 @@ a{
   	width: 290px;
   	height: 276px;
   	float: left;
-  	border: 1px solid black;
+  	/*border: 1px solid black;*/
   }
   .intro{
     float: right;
@@ -503,7 +533,7 @@ a{
     height: 276px;
     padding-right: 20px;
     margin-left: 29px;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
   }
   .show-pagenav{
   	list-style-type: none;
@@ -529,13 +559,27 @@ a{
   #ss-intros{
   	width: 329px;
   	height: 186px;
-  	border: 1px solid black;
+  /*	border: 1px solid black;*/
   }
   .ss-intro{
   	width: 290px;
   	height: 184px;
-  	border: 1px solid black;
+  /*	border: 1px solid black;*/
   	padding-left: 38px;
+  }
+  .ss-intro1{
+  	width: 290px;
+  	height: 184px;
+  	/*border: 1px solid black;*/
+  	padding-left: 38px;
+  	display:none;
+  }
+  .ss-intro2{
+  	width: 290px;
+  	height: 184px;
+  	/*border: 1px solid black;*/
+  	padding-left: 38px;
+  	display:none;
   }
   .ss-intro h3{
   	font-size: 18px;
